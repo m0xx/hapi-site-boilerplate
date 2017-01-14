@@ -1,4 +1,4 @@
-## hapi-server-boilerplate
+## hapi-site-boilerplate
 
 ## Features
 

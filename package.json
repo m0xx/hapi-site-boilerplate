@@ -1,5 +1,5 @@
 {
-  "name": "hapi-server-boilerplate",
+  "name": "hapi-site-boilerplate",
   "version": "1.0.0",
   "description": "Opinionated Hapi server boilerplate. Hapi, Pug and less.",
   "main": "index.js",
