@@ -1,0 +1,42 @@
+{
+  "name": "hapi-server-boilerplate",
+  "version": "1.0.0",
+  "description": "Opinionated Hapi server boilerplate. Hapi, Pug and less.",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node server.js",
+    "dev": "cross-env NODE_ENV=development gulp dev",
+    "build": "cross-env NODE_ENV=production gulp build"
+  },
+  "author": "m0xx",
+  "license": "ISC",
+  "keywords": [
+    "hapi",
+    "boilerplate",
+    "less",
+    "pug",
+    "webpack"
+  ],
+  "devDependencies": {
+    "cross-env": "^3.1.4",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.3.2",
+    "gulp-less": "^3.3.0",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-sourcemaps": "^2.4.0",
+    "gulp-util": "^3.0.8",
+    "less-plugin-autoprefix": "^1.5.1",
+    "require-dir": "^0.3.1",
+    "webpack": "^1.14.0"
+  },
+  "dependencies": {
+    "boom": "^4.2.0",
+    "confidence": "^3.0.2",
+    "hapi": "^16.1.0",
+    "inert": "^4.1.0",
+    "joi": "^10.1.0",
+    "pug": "^2.0.0-beta6",
+    "vision": "^4.1.1"
+  }
+}
